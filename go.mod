@@ -7,7 +7,6 @@ require (
 	github.com/davecgh/go-spew v1.1.1 // indirect
 	github.com/golang/protobuf v1.4.0
 	github.com/kr/text v0.2.0 // indirect
-	github.com/librespot-org/librespot-golang v0.0.0-20190422094710-916b535e1393
 	github.com/miekg/dns v1.1.29 // indirect
 	github.com/niemeyer/pretty v0.0.0-20200227124842-a10e7caefd8e // indirect
 	github.com/stretchr/testify v1.5.1

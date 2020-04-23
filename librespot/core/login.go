@@ -5,10 +5,10 @@ import (
 	"encoding/base64"
 	"fmt"
 	"github.com/golang/protobuf/proto"
-	"github.com/librespot-org/librespot-golang/Spotify"
-	"github.com/librespot-org/librespot-golang/librespot/connection"
-	"github.com/librespot-org/librespot-golang/librespot/discovery"
-	"github.com/librespot-org/librespot-golang/librespot/utils"
+	"github.com/irgendwr/librespot-golang/Spotify"
+	"github.com/irgendwr/librespot-golang/librespot/connection"
+	"github.com/irgendwr/librespot-golang/librespot/discovery"
+	"github.com/irgendwr/librespot-golang/librespot/utils"
 	"log"
 )
 
