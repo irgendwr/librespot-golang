@@ -2,7 +2,9 @@
 
 ### Introduction
 
-librespot-golang is an opensource Golang library based on the [librespot](https://github.com/plietar/librespot) project, allowing you to control Spotify Connect devices, get metadata, and play music. It has itself been based on [SpotControl](https://github.com/badfortrains/spotcontrol), and its main goal is to provide a suitable replacement wfor the defunct libspotify.
+This is a fork of [https://github.com/librespot-org/librespot-golang](https://github.com/librespot-org/librespot-golang) with some minor fixes and changes.
+
+librespot-golang is an opensource Golang library based on the [librespot](https://github.com/plietar/librespot) project, allowing you to control Spotify Connect devices, get metadata, and play music. It has itself been based on [SpotControl](https://github.com/badfortrains/spotcontrol), and its main goal is to provide a suitable replacement for the defunct libspotify.
 
 This is still highly experimental and in development. Do not use it in production projects yet, as the API is incomplete and subject to heavy changes.
 
@@ -49,3 +51,4 @@ nix-shell -p gcc pkgconfig libvorbis libogg portaudio
 - Handling disconnections, timeouts, etc (overall failure tolerance)
 - Playlist management
 - Spotify Radio support
+- Spotify Connect support ([librespot-org/librespot-golang#22](https://github.com/librespot-org/librespot-golang/issues/22))
